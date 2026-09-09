@@ -78,8 +78,8 @@ autosub2/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/<your-username>/autosub2.git
-cd autosub2
+git clone https://github.com/thiendetien/autosub
+cd autosub
 ```
 
 ### 2. Tạo môi trường ảo (khuyến nghị)
