@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual env
+venv/
+.env/
+env/
+
+# Model weights (too large for GitHub - download separately)
+checkpoints/*.pth
+model/*.pth
+model/*.onnx
+
+# Media files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+
+# Output & temp
+outputs/
+downloads/
+_debug_tts_audio/
+.temp_review_render/
+tmp_*/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SRT/subtitle working files
+*.srt
+*.ass
+*.segments.json
+
+# VSR model weights (download separately)
+vsr/backend/models/**/*.pth
+vsr/backend/models/**/*.pt
+vsr/backend/models/**/*.onnx
+vsr/backend/models/**/*.pdiparams
+vsr/backend/models/**/*.pdmodel
+vsr/test/
